@@ -1,10 +1,18 @@
 import './App.css'
 
+import NavBar from './components/NavBar'
+import Home from './components/Home'
+
+import IMGBACKGROUND from './assets/home-banner-background.png'
+
 function App() {
 
   return (
     <>
-      <h1>opa</h1>
+      <div className='bg-no-repeat bg-right-top bg-contain' style={{backgroundImage: `url(${IMGBACKGROUND})`}}>
+        <NavBar></NavBar>
+        <Home></Home>
+      </div>
     </>
   )
 }
