@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <div className='bg-no-repeat bg-right-top bg-contain' style={{backgroundImage: `url(${IMGBACKGROUND})`}}>
+      <div className='bg-[url("./assets/home-banner-background.png")] bg-no-repeat bg-right-top bg-contain max-lg:bg-none'>
         <NavBar></NavBar>
         <Home></Home>
       </div>
