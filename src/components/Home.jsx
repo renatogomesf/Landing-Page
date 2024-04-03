@@ -14,10 +14,10 @@ export default function Home() {
 
                     <p className="text-lg text-gray-500 font-semibold max-lg:text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, porro quibusdam. Accusantium, veritatis nulla.</p>
 
-                    <button className="bg-orange-500 text-white text-lg font-bold px-6 py-4 rounded-full flex items-center gap-2 max-lg:text-base">Peça Agora <FaArrowRight /></button>
+                    <button className="bg-[#FE9E0D] text-white text-lg font-bold px-6 py-4 rounded-full flex items-center gap-2 max-lg:text-base">Peça Agora <FaArrowRight /></button>
                 </div>
 
-                <img className="max-w-md max-md:w-4/5" src={IMGHOME} alt="Banner home" />
+                <img className="max-w-md max-md:w-11/12" src={IMGHOME} alt="Banner home" />
             </div>
         </section>
     )
