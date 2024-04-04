@@ -13,7 +13,7 @@ export default function ComoFunciona() {
                 <p className="text-lg text-gray-500 font-semibold max-lg:text-base">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet suscipit incidunt dignissimos quibusdam? Alias laudantium aperiam quaerat voluptatum, expedita cupiditate veniam?</p>
             </div>
 
-            <div className="flex gap-10 max-lg:flex-col">
+            <div className="flex justify-center gap-10 max-lg:flex-wrap">
                 <div className="w-60 p-5 text-center flex flex-col justify-center items-center gap-4 bg-white rounded-2xl">
                     <img src={REFEIÇOES} alt="refeições" />
 

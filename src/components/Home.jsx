@@ -6,7 +6,7 @@ import { FaArrowRight } from "react-icons/fa6";
 
 export default function Home() {
     return (
-        <section className="flex justify-center">
+        <section id="home" className="flex justify-center">
             <div className="py-14 px-10 w-full max-w-7xl flex justify-between items-center gap-7 max-lg:flex-col">
 
                 <div className="flex flex-col items-start gap-10">

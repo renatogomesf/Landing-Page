@@ -4,8 +4,8 @@ import IMGSOBRE from '../assets/about-background-image.png'
 
 export default function Sobre() {
     return (
-        <>
-            <section className="flex justify-center">
+
+        <section id="sobre" className="flex justify-center">
             <div className="py-14 px-10 w-full max-w-7xl flex justify-between items-center gap-7 max-lg:flex-col-reverse">
 
                 <img className="max-w-md max-md:w-11/12" src={IMGSOBRE} alt="Banner sobre" />
@@ -23,6 +23,6 @@ export default function Sobre() {
                 </div>
             </div>
         </section>
-        </>
+
     )
 }

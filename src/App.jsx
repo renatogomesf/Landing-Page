@@ -4,6 +4,9 @@ import NavBar from './components/NavBar'
 import Home from './components/Home'
 import Sobre from './components/Sobre'
 import ComoFunciona from './components/ComoFunciona'
+import Depoimentos from './components/Depoimentos'
+import Email from './components/Email'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -19,6 +22,12 @@ function App() {
       </div>
 
       <ComoFunciona></ComoFunciona>
+
+      <Depoimentos></Depoimentos>
+    
+      <Email></Email>
+
+      <Footer></Footer>
     </>
   )
 }
