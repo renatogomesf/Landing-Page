@@ -18,7 +18,8 @@ O projeto consiste em uma landing page onde busca divulgar um restaurante com fo
 
 ![web 1](https://raw.githubusercontent.com/renatogomesf/imagens-projetos/main/imagens/landing%20page/web-1.png) ![web 2](https://raw.githubusercontent.com/renatogomesf/imagens-projetos/main/imagens/landing%20page/web-2.png)
 
-## Tecnologias utilizadas
+## Tecnologias
+Essas são as tecnologías utilizadas no projeto:
 
 * React.js
 * Tailwind
